@@ -1,0 +1,12 @@
+	mov c,a
+	jm tact        ;the comment
+	mov a,b
+tact:   mov c,d
+	mvi a,30
+next:   mvi b,20
+	mov a,d
+	jm tact
+next:    jm next
+    ori 5
+   mvi d,20
+end: lxi h,0034
